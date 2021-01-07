@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     private var index = 0
     private val itemList = ArrayList<ItemClass>()
     private val mediaParser = MediaPlayer()
-//    private val num = mediaParser.duration
 
     private fun initItem() {
         repeat(1) {
@@ -33,6 +32,14 @@ class MainActivity : AppCompatActivity() {
             itemList.add(ItemClass("下雨了", "薛之谦", R.drawable.music_06, "music_06.mp3"))
             itemList.add(ItemClass("演员", "薛之谦", R.drawable.music_07, "music_07.mp3"))
             itemList.add(ItemClass("野心", "薛之谦", R.drawable.music_08, "music_08.mp3"))
+            itemList.add(ItemClass("阿乐", "许廷铿", R.drawable.music_09, "music_09.mp3"))
+            itemList.add(ItemClass("残忍", "许廷铿", R.drawable.music_10, "music_10.mp3"))
+            itemList.add(ItemClass("对白", "许廷铿", R.drawable.music_11, "music_11.mp3"))
+            itemList.add(ItemClass("护航", "许廷铿", R.drawable.music_12, "music_12.mp3"))
+            itemList.add(ItemClass("蚂蚁", "许廷铿", R.drawable.music_13, "music_13.mp3"))
+            itemList.add(ItemClass("面具", "许廷铿", R.drawable.music_14, "music_14.mp3"))
+            itemList.add(ItemClass("仁至义尽", "许廷铿", R.drawable.music_15, "music_15.mp3"))
+            itemList.add(ItemClass("如你是我", "许廷铿", R.drawable.music_16, "music_16.mp3"))
         }
     }
 
@@ -81,7 +88,6 @@ class MainActivity : AppCompatActivity() {
                 index = itemList.size -1
             }
             musicManager()
-
         }
 
 
